@@ -1,0 +1,12 @@
+
+{
+    "handlers": [
+        {
+            "name": "Cat Picture",
+            "path": "handler.js",
+            "triggers": [
+                "Hello"
+            ]
+        }
+    ]
+}
