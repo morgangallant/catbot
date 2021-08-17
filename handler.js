@@ -5,4 +5,5 @@ const handler = async (req) => {
         return;
     }
     operand.respond(`https://cataas.com/cat/says/${encodeURIComponent(req.message)}`);
+    operand.log("Handled incoming cat request.");
 }
